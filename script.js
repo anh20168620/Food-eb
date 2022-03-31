@@ -9,9 +9,29 @@ menuBar.addEventListener('click', () => {
     $('.menu-items').classList.toggle('active')
 })
 
+
+// Button back
+const backBtn = $('.footer-back')
+
+const handleScroll1 = () => {
+    if (window.scrollY >= 20) {
+        backBtn.style.transform = 'translateY(0)'
+    }
+    else {
+        backBtn.style.transform = 'translateY(200%)'
+
+
+    }
+}
+window.addEventListener('scroll', handleScroll1)
+
+backBtn.onclick = () => {
+    window.scrollTo(0, 0)
+}
+
 // Scroll
 const topElement = $('.top')
-const handleScroll = () => {
+const handleScroll2 = () => {
     if (window.scrollY >= 20) {
         topElement.classList.add('active')
     }
@@ -20,7 +40,7 @@ const handleScroll = () => {
     }
 }
 
-window.addEventListener('scroll', handleScroll)
+window.addEventListener('scroll', handleScroll2)
 
 // Active menu
 

@@ -14,6 +14,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .btn {
   background-color: transparent;
   padding: 15px 30px;
@@ -581,6 +585,13 @@ a {
 
 .footer-social i:hover {
   color: var(--sub-color);
+}
+
+.footer-back {
+  position: fixed;
+  right: 40px;
+  bottom: 30px;
+  transform: translateY(200%);
 }
 
 .footer-copyright {
