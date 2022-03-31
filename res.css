@@ -1,0 +1,46 @@
+@media screen and (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+
+  .about-item {
+    width: 100%;
+  }
+
+  .food-item {
+    width: 100%;
+  }
+
+  .feedback-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .team-item {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .team-item-text {
+    bottom: 15px;
+  }
+
+  .menu-title {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .menu-button {
+    font-size: 20px;
+    padding: 2px;
+  }
+
+  .footer-item {
+    width: calc(100% / 2 - 20px);
+    margin-bottom: 20px;
+  }
+
+  .footer-social {
+    display: flex;
+  }
+}
